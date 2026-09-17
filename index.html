@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Syed Ibrahim | AWS Cloud & DevOps Engineer</title>
+<meta name="description" content="Syed Ibrahim - AWS Cloud & DevOps Engineer portfolio. Terraform, GitLab CI/CD, Docker, Kubernetes and AWS infrastructure projects.">
+
+<!-- Google Fonts: Space Grotesk (display/technical) + Inter (body) + JetBrains Mono (labels/badges) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☁️</text></svg>">
+</head>
+<body>
+
+<!-- Skip link for keyboard/screen reader users -->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<!-- ============ PAGE LOAD OVERLAY ============ -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader-mark">
+    <span class="loader-bracket">&lt;</span>
+    <span class="loader-text">syed.ibrahim</span>
+    <span class="loader-bracket">/&gt;</span>
+  </div>
+  <div class="loader-bar"><span></span></div>
+</div>
+
+<!-- Animated background grid (decorative) -->
+<div class="bg-grid" aria-hidden="true"></div>
+<div class="bg-glow" aria-hidden="true"></div>
+
+<!-- ============ NAVBAR ============ -->
+<header class="navbar" id="navbar">
+  <nav class="nav-container" aria-label="Primary navigation">
+    <a href="#home" class="nav-logo">SYED<span>.</span>IBRAHIM</a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#journey" class="nav-link">DevOps Journey</a></li>
+      <li><a href="#github" class="nav-link">GitHub</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+
+    <a href="assets/resume/Syed-Ibrahim-Resume.pdf" class="btn btn-outline nav-resume" download>Resume</a>
+  </nav>
+</header>
+
+<main id="main-content">
+
+  <!-- ============ HERO SECTION ============ -->
+  <section class="hero" id="home">
+    <div class="hero-container">
+
+      <div class="hero-content">
+        <p class="hero-greeting reveal-item">Hi, I'm Syed Ibrahim</p>
+        <h1 class="hero-title reveal-item">AWS Cloud &amp; DevOps Engineer</h1>
+        <p class="hero-subtitle reveal-item">Building cloud infrastructure, automating deployments, and learning to deliver reliable applications with AWS and DevOps.</p>
+
+        <div class="hero-badges reveal-item" aria-label="Core technologies">
+          <span class="badge">AWS</span>
+          <span class="badge">Linux</span>
+          <span class="badge">Terraform</span>
+          <span class="badge">GitLab CI/CD</span>
+          <span class="badge">Docker</span>
+          <span class="badge">Kubernetes</span>
+        </div>
+
+        <div class="hero-actions reveal-item">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="assets/resume/Syed-Ibrahim-Resume.pdf" class="btn btn-outline" download>Download Resume</a>
+        </div>
+
+        <div class="hero-social reveal-item">
+          <a href="https://github.com/syedibrahimdev20-bot" target="_blank" rel="noopener noreferrer" class="social-link">
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.93.57.1.79-.25.79-.55v-2.16c-3.2.7-3.87-1.36-3.87-1.36-.53-1.33-1.29-1.69-1.29-1.69-1.05-.72.08-.7.08-.7 1.17.08 1.78 1.2 1.78 1.2 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.58.23 2.75.11 3.04.74.81 1.19 1.83 1.19 3.09 0 4.42-2.69 5.4-5.25 5.68.41.36.78 1.08.78 2.18v3.23c0 .3.21.66.79.55A10.51 10.51 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5Z"/></svg>
+            GitHub
+          </a>
+          <a href="https://linkedin.com/in/syed-ibrahim-dev" target="_blank" rel="noopener noreferrer" class="social-link">
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.8 0 0 .78 0 1.75v20.5C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.75V1.75C24 .78 23.2 0 22.22 0Z"/></svg>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+
+      <!-- ===== Hero animated infra visualization ===== -->
+      <div class="hero-visual reveal-item" role="img" aria-label="Diagram showing deployment flow from Developer to Git, GitLab CI/CD, Terraform, AWS Infrastructure, and Application">
+        <div class="pipeline" id="heroPipeline">
+          <div class="pipeline-node" data-node="0">
+            <span class="node-icon">🧑‍💻</span>
+            <span class="node-label">Developer</span>
+          </div>
+          <div class="pipeline-connector"><span class="pulse"></span></div>
+
+          <div class="pipeline-node" data-node="1">
+            <span class="node-icon">🔧</span>
+            <span class="node-label">Git</span>
+          </div>
+          <div class="pipeline-connector"><span class="pulse"></span></div>
+
+          <div class="pipeline-node" data-node="2">
+            <span class="node-icon">🦊</span>
+            <span class="node-label">GitLab CI/CD</span>
+          </div>
+          <div class="pipeline-connector"><span class="pulse"></span></div>
+
+          <div class="pipeline-node" data-node="3">
+            <span class="node-icon">🧱</span>
+            <span class="node-label">Terraform</span>
+          </div>
+          <div class="pipeline-connector"><span class="pulse"></span></div>
+
+          <div class="pipeline-node pipeline-node-highlight" data-node="4">
+            <span class="node-icon">☁️</span>
+            <span class="node-label">AWS Infrastructure</span>
+          </div>
+          <div class="pipeline-connector"><span class="pulse"></span></div>
+
+          <div class="pipeline-node" data-node="5">
+            <span class="node-icon">🚀</span>
+            <span class="node-label">Application</span>
+          </div>
+        </div>
+        <div class="pipeline-grid-decoration" aria-hidden="true"></div>
+      </div>
+
+    </div>
+
+    <a href="#about" class="scroll-cue" aria-label="Scroll to About section">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ============ ABOUT SECTION ============ -->
+  <section class="section" id="about">
+    <div class="container about-grid">
+
+      <div class="about-text reveal-on-scroll">
+        <p class="eyebrow">About</p>
+        <h2 class="section-title">A fresher building real cloud infrastructure</h2>
+        <p class="about-paragraph">
+          I'm a Computer Science graduate focused on Cloud and DevOps engineering. I have hands-on practice with AWS cloud services, Linux administration, Infrastructure as Code using Terraform, and CI/CD automation using GitLab. I enjoy building and troubleshooting cloud infrastructure and learning how applications move from development to deployment. As a fresher, I'm looking for an opportunity to apply my skills, learn from experienced engineers, and grow as a Cloud/DevOps professional.
+        </p>
+
+        <div class="about-status">
+          <span class="status-dot" aria-hidden="true"></span>
+          Currently seeking entry-level Cloud / DevOps opportunities
+        </div>
+
+        <div class="about-meta">
+          <div class="meta-item">
+            <span class="meta-label">Education</span>
+            <span class="meta-value">B.Sc. Computer Science — Sadakathullah Appa College, Tirunelveli (2023 – 2026)</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Certification</span>
+            <span class="meta-value">Cloud with DevOps — Cloud computing &amp; DevOps fundamentals</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Location</span>
+            <span class="meta-value">Tamil Nadu, India</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-cards reveal-on-scroll">
+        <div class="mini-card">
+          <span class="mini-card-icon">☁️</span>
+          <h3>Cloud Engineering</h3>
+          <p>Designing infrastructure on AWS — VPCs, compute, storage and networking.</p>
+        </div>
+        <div class="mini-card">
+          <span class="mini-card-icon">⚙️</span>
+          <h3>DevOps</h3>
+          <p>Automating provisioning and delivery with Terraform and GitLab CI/CD.</p>
+        </div>
+        <div class="mini-card">
+          <span class="mini-card-icon">🐧</span>
+          <h3>Linux</h3>
+          <p>Comfortable administering and troubleshooting Linux-based systems.</p>
+        </div>
+        <div class="mini-card">
+          <span class="mini-card-icon">🚀</span>
+          <h3>Infrastructure</h3>
+          <p>Learning how code moves from a repository to running infrastructure.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ SKILLS SECTION ============ -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <p class="eyebrow reveal-on-scroll">Skills</p>
+      <h2 class="section-title reveal-on-scroll">Technologies I work with</h2>
+
+      <div class="skills-grid">
+
+        <div class="skill-category reveal-on-scroll">
+          <div class="skill-category-header">
+            <span class="skill-category-icon">☁️</span>
+            <h3>Cloud &amp; AWS</h3>
+          </div>
+          <p class="skill-category-desc">Core AWS services used to design and run cloud infrastructure.</p>
+          <div class="skill-badges">
+            <span class="skill-badge">AWS</span>
+            <span class="skill-badge">EC2</span>
+            <span class="skill-badge">VPC</span>
+            <span class="skill-badge">IAM</span>
+            <span class="skill-badge">S3</span>
+            <span class="skill-badge">EBS</span>
+            <span class="skill-badge">EFS</span>
+            <span class="skill-badge">Application Load Balancer</span>
+            <span class="skill-badge">Auto Scaling</span>
+            <span class="skill-badge">CloudWatch</span>
+            <span class="skill-badge">Lambda</span>
+            <span class="skill-badge">DynamoDB</span>
+            <span class="skill-badge">Route 53</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal-on-scroll">
+          <div class="skill-category-header">
+            <span class="skill-category-icon">⚙️</span>
+            <h3>DevOps</h3>
+          </div>
+          <p class="skill-category-desc">Tools for infrastructure as code and continuous delivery.</p>
+          <div class="skill-badges">
+            <span class="skill-badge">Terraform</span>
+            <span class="skill-badge">Git</span>
+            <span class="skill-badge">GitLab</span>
+            <span class="skill-badge">GitLab CI/CD</span>
+            <span class="skill-badge">Docker</span>
+            <span class="skill-badge">Kubernetes</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal-on-scroll">
+          <div class="skill-category-header">
+            <span class="skill-category-icon">🗄️</span>
+            <h3>Databases</h3>
+          </div>
+          <p class="skill-category-desc">Relational database fundamentals and query writing.</p>
+          <div class="skill-badges">
+            <span class="skill-badge">SQL</span>
+            <span class="skill-badge">MySQL</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal-on-scroll">
+          <div class="skill-category-header">
+            <span class="skill-category-icon">🐧</span>
+            <h3>Operating Systems</h3>
+          </div>
+          <p class="skill-category-desc">Day-to-day administration and shell usage.</p>
+          <div class="skill-badges">
+            <span class="skill-badge">Linux</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS SECTION ============ -->
+  <section class="section" id="projects">
+    <div class="container">
+      <p class="eyebrow reveal-on-scroll">Projects</p>
+      <h2 class="section-title reveal-on-scroll">Hands-on infrastructure work</h2>
+      <p class="section-intro reveal-on-scroll">A mix of planned AWS architecture, a completed Terraform + CI/CD build, and a containerized application.</p>
+
+      <div class="projects-list">
+
+        <!-- PROJECT 01 -->
+        <article class="project-card reveal-on-scroll" data-project="cloudscale">
+          <div class="project-card-main">
+            <div class="project-card-info">
+              <span class="project-number">01</span>
+              <h3 class="project-title">CloudScale</h3>
+              <p class="project-subtitle">Highly Available AWS Web Infrastructure</p>
+              <p class="project-desc">Designed and implemented as a hands-on AWS infrastructure project — a highly available web architecture spanning multiple subnets, load balancing and auto scaling.</p>
+              <div class="tech-badges">
+                <span class="tech-badge">VPC</span>
+                <span class="tech-badge">ALB</span>
+                <span class="tech-badge">EC2</span>
+                <span class="tech-badge">Auto Scaling</span>
+                <span class="tech-badge">CloudWatch</span>
+                <span class="tech-badge">S3</span>
+                <span class="tech-badge">Lambda</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/syedibrahimdev20-bot" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">GitHub</a>
+                <button class="btn btn-outline btn-sm project-details-btn" data-project="cloudscale">View Details</button>
+              </div>
+            </div>
+
+            <div class="project-architecture" aria-hidden="true">
+              <div class="arch-flow">
+                <div class="arch-node">Internet</div>
+                <div class="arch-line"></div>
+                <div class="arch-node">Internet Gateway</div>
+                <div class="arch-line"></div>
+                <div class="arch-node">Application Load Balancer</div>
+                <div class="arch-line"></div>
+                <div class="arch-node">Target Group</div>
+                <div class="arch-line"></div>
+                <div class="arch-node">EC2 Instances</div>
+                <div class="arch-line"></div>
+                <div class="arch-node arch-node-end">Auto Scaling</div>
+              </div>
+
+              <div class="arch-vpc">
+                <span class="arch-vpc-label">VPC</span>
+                <div class="arch-vpc-subnets">
+                  <span class="subnet subnet-public">Public Subnet 1</span>
+                  <span class="subnet subnet-public">Public Subnet 2</span>
+                  <span class="subnet subnet-private">Private Subnet 1</span>
+                  <span class="subnet subnet-private">Private Subnet 2</span>
+                </div>
+              </div>
+
+              <div class="arch-side-flows">
+                <div class="side-flow"><span>CloudWatch</span><span class="side-arrow">→</span><span>SNS</span></div>
+                <div class="side-flow"><span>S3</span><span class="side-arrow">→</span><span>Static Website</span></div>
+                <div class="side-flow"><span>Lambda</span><span class="side-arrow">→</span><span>Serverless Component</span></div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT 02 -->
+        <article class="project-card reveal-on-scroll" data-project="infraforge">
+          <div class="project-card-main">
+            <div class="project-card-info">
+              <span class="project-number">02</span>
+              <h3 class="project-title">InfraForge</h3>
+              <p class="project-subtitle">AWS Infrastructure with Terraform &amp; CI/CD</p>
+              <p class="project-desc">Provisioned AWS EC2 infrastructure using Terraform and implemented an automated CI/CD pipeline using GitLab.</p>
+              <div class="tech-badges">
+                <span class="tech-badge">Terraform</span>
+                <span class="tech-badge">AWS EC2</span>
+                <span class="tech-badge">EBS</span>
+                <span class="tech-badge">Git</span>
+                <span class="tech-badge">GitLab</span>
+                <span class="tech-badge">GitLab CI/CD</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/syedibrahimdev20-bot" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">GitHub</a>
+                <button class="btn btn-outline btn-sm project-details-btn" data-project="infraforge">View Details</button>
+              </div>
+            </div>
+
+            <div class="project-architecture" aria-hidden="true">
+              <div class="arch-flow arch-flow-vertical">
+                <div class="arch-node">Developer</div>
+                <div class="arch-line"></div>
+                <div class="arch-node">Git</div>
+                <div class="arch-line"></div>
+                <div class="arch-node">GitLab</div>
+                <div class="arch-line"></div>
+                <div class="arch-node">GitLab CI/CD</div>
+                <div class="arch-line"></div>
+                <div class="arch-node">Terraform</div>
+                <div class="arch-line"></div>
+                <div class="arch-node">AWS EC2</div>
+                <div class="arch-line"></div>
+                <div class="arch-node arch-node-end">Infrastructure</div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT 03 -->
+        <article class="project-card project-card-alt reveal-on-scroll" data-project="quotebox">
+          <div class="project-card-main">
+            <div class="project-card-info">
+              <span class="project-number">03</span>
+              <h3 class="project-title">QuoteBox</h3>
+              <p class="project-subtitle">Containerized Motivation Quotes Application</p>
+              <p class="project-desc">A small application packaged as a Docker image, pushed to Docker Hub, and deployed to Kubernetes as a Pod behind a Service.</p>
+              <div class="tech-badges">
+                <span class="tech-badge">Docker</span>
+                <span class="tech-badge">Docker Hub</span>
+                <span class="tech-badge">Kubernetes</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/syedibrahimdev20-bot" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">GitHub</a>
+                <button class="btn btn-outline btn-sm project-details-btn" data-project="quotebox">View Details</button>
+              </div>
+            </div>
+
+            <div class="project-architecture project-architecture-container" aria-hidden="true">
+              <div class="arch-flow arch-flow-vertical">
+                <div class="arch-node arch-node-container">Application</div>
+                <div class="arch-line"></div>
+                <div class="arch-node arch-node-container">Docker Image</div>
+                <div class="arch-line"></div>
+                <div class="arch-node arch-node-container">Docker Hub</div>
+                <div class="arch-line"></div>
+                <div class="arch-node arch-node-container">Kubernetes</div>
+                <div class="arch-line"></div>
+                <div class="arch-node arch-node-container">Pod</div>
+                <div class="arch-line"></div>
+                <div class="arch-node arch-node-container arch-node-end">Service</div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECT DETAILS MODAL ============ -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" id="modal">
+      <button class="modal-close" id="modalClose" aria-label="Close project details">✕</button>
+      <div class="modal-body" id="modalBody">
+        <!-- Filled dynamically by js/script.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ DEVOPS JOURNEY (TIMELINE) ============ -->
+  <section class="section section-alt" id="journey">
+    <div class="container">
+      <p class="eyebrow reveal-on-scroll">My DevOps Journey</p>
+      <h2 class="section-title reveal-on-scroll">From Computer Science to Cloud &amp; DevOps</h2>
+
+      <div class="timeline" id="timeline">
+        <div class="timeline-line" aria-hidden="true"><span class="timeline-line-fill"></span></div>
+
+        <div class="timeline-item reveal-on-scroll">
+          <span class="timeline-dot"></span>
+          <div class="timeline-content"><h3>Computer Science</h3><p>Built a foundation in programming and computing fundamentals.</p></div>
+        </div>
+        <div class="timeline-item reveal-on-scroll">
+          <span class="timeline-dot"></span>
+          <div class="timeline-content"><h3>Linux</h3><p>Learned to navigate, administer and troubleshoot Linux systems.</p></div>
+        </div>
+        <div class="timeline-item reveal-on-scroll">
+          <span class="timeline-dot"></span>
+          <div class="timeline-content"><h3>Git &amp; Version Control</h3><p>Adopted Git for tracking and collaborating on code.</p></div>
+        </div>
+        <div class="timeline-item reveal-on-scroll">
+          <span class="timeline-dot"></span>
+          <div class="timeline-content"><h3>AWS</h3><p>Explored core AWS services for compute, storage and networking.</p></div>
+        </div>
+        <div class="timeline-item reveal-on-scroll">
+          <span class="timeline-dot"></span>
+          <div class="timeline-content"><h3>Terraform</h3><p>Started defining infrastructure as code instead of manual setup.</p></div>
+        </div>
+        <div class="timeline-item reveal-on-scroll">
+          <span class="timeline-dot"></span>
+          <div class="timeline-content"><h3>CI/CD</h3><p>Automated builds and provisioning with GitLab CI/CD pipelines.</p></div>
+        </div>
+        <div class="timeline-item reveal-on-scroll">
+          <span class="timeline-dot"></span>
+          <div class="timeline-content"><h3>Docker</h3><p>Packaged applications into portable, consistent containers.</p></div>
+        </div>
+        <div class="timeline-item reveal-on-scroll">
+          <span class="timeline-dot"></span>
+          <div class="timeline-content"><h3>Kubernetes</h3><p>Learned to deploy and manage containers at scale.</p></div>
+        </div>
+        <div class="timeline-item reveal-on-scroll">
+          <span class="timeline-dot timeline-dot-current"></span>
+          <div class="timeline-content"><h3>Cloud / DevOps Engineering</h3><p>Now applying it all together — and looking for my first role.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DEVOPS WORKFLOW (PIPELINE VISUAL) ============ -->
+  <section class="section" id="workflow">
+    <div class="container">
+      <p class="eyebrow reveal-on-scroll">How I Ship</p>
+      <h2 class="section-title reveal-on-scroll">A typical DevOps workflow</h2>
+
+      <div class="workflow-pipeline reveal-on-scroll" id="workflowPipeline">
+        <div class="workflow-step" data-step="0"><span class="workflow-icon">📝</span><span>Code</span></div>
+        <div class="workflow-arrow">→</div>
+        <div class="workflow-step" data-step="1"><span class="workflow-icon">🔧</span><span>Git</span></div>
+        <div class="workflow-arrow">→</div>
+        <div class="workflow-step" data-step="2"><span class="workflow-icon">🦊</span><span>GitLab</span></div>
+        <div class="workflow-arrow">→</div>
+        <div class="workflow-step" data-step="3"><span class="workflow-icon">🔁</span><span>CI/CD</span></div>
+        <div class="workflow-arrow">→</div>
+        <div class="workflow-step" data-step="4"><span class="workflow-icon">🧱</span><span>Terraform</span></div>
+        <div class="workflow-arrow">→</div>
+        <div class="workflow-step" data-step="5"><span class="workflow-icon">🐳</span><span>Docker</span></div>
+        <div class="workflow-arrow">→</div>
+        <div class="workflow-step" data-step="6"><span class="workflow-icon">☁️</span><span>AWS / Kubernetes</span></div>
+        <div class="workflow-arrow">→</div>
+        <div class="workflow-step" data-step="7"><span class="workflow-icon">🚀</span><span>Deployment</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GITHUB SECTION ============ -->
+  <section class="section section-alt" id="github">
+    <div class="container github-container">
+      <div class="github-text reveal-on-scroll">
+        <p class="eyebrow">Code &amp; Projects</p>
+        <h2 class="section-title">Explore my work on GitHub</h2>
+        <p class="section-intro">Explore my projects, Infrastructure as Code, and DevOps experiments on GitHub.</p>
+        <a href="https://github.com/syedibrahimdev20-bot" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Visit GitHub</a>
+      </div>
+
+      <div class="github-card reveal-on-scroll" id="githubCard">
+        <div class="github-card-header">
+          <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.93.57.1.79-.25.79-.55v-2.16c-3.2.7-3.87-1.36-3.87-1.36-.53-1.33-1.29-1.69-1.29-1.69-1.05-.72.08-.7.08-.7 1.17.08 1.78 1.2 1.78 1.2 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.58.23 2.75.11 3.04.74.81 1.19 1.83 1.19 3.09 0 4.42-2.69 5.4-5.25 5.68.41.36.78 1.08.78 2.18v3.23c0 .3.21.66.79.55A10.51 10.51 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5Z"/></svg>
+          <span id="githubUsername">syedibrahimdev20-bot</span>
+        </div>
+        <p class="github-card-note" id="githubStatus">Live stats load from the GitHub API when available.</p>
+        <div class="github-stats" id="githubStats" aria-live="polite">
+          <div class="github-stat"><span class="stat-value" id="statRepos">—</span><span class="stat-label">Public Repos</span></div>
+          <div class="github-stat"><span class="stat-value" id="statFollowers">—</span><span class="stat-label">Followers</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ RESUME CTA ============ -->
+  <section class="section resume-cta">
+    <div class="container resume-cta-inner reveal-on-scroll">
+      <h2 class="section-title">Want to know more about my journey?</h2>
+      <p class="section-intro">Download my resume to explore my skills, projects, and technical background.</p>
+      <a href="Syed-ibrahim_Resume.docx" class="btn btn-primary btn-lg" download>Download Resume</a>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT SECTION ============ -->
+  <section class="section" id="contact">
+    <div class="container contact-grid">
+
+      <div class="contact-info reveal-on-scroll">
+        <p class="eyebrow">Contact</p>
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="section-intro">I'm currently looking for opportunities to begin my career in Cloud and DevOps engineering.</p>
+
+        <ul class="contact-list">
+          <li>
+            <span class="contact-icon" aria-hidden="true">✉️</span>
+            <div><span class="contact-label">Email</span><a href="mailto:syed.ibrahim.dev20@gmail.com">syed.ibrahim.dev20@gmail.com</a></div>
+          </li>
+          <li>
+            <span class="contact-icon" aria-hidden="true">💼</span>
+            <div><span class="contact-label">LinkedIn</span><a href="https://linkedin.com/in/syed-ibrahim-dev" target="_blank" rel="noopener noreferrer">linkedin.com/in/syed-ibrahim-dev</a></div>
+          </li>
+          <li>
+            <span class="contact-icon" aria-hidden="true">💻</span>
+            <div><span class="contact-label">GitHub</span><a href="https://github.com/syedibrahimdev20-bot" target="_blank" rel="noopener noreferrer">github.com/syedibrahimdev20-bot</a></div>
+          </li>
+        </ul>
+      </div>
+
+      <form class="contact-form reveal-on-scroll" id="contactForm" novalidate>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required autocomplete="name">
+          <span class="form-error" id="nameError"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required autocomplete="email">
+          <span class="form-error" id="emailError"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <span class="form-error" id="messageError"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+
+        <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+      </form>
+
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <p class="footer-name">SYED IBRAHIM</p>
+      <p class="footer-title">DevOps Engineer | Cloud Engineer | Junior DevOps Engineer</p>
+    </div>
+
+    <div class="footer-links">
+      <a href="https://github.com/syedibrahimdev20-bot" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://linkedin.com/in/syed-ibrahim-dev" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="mailto:syed.ibrahim.dev20@gmail.com">Email</a>
+    </div>
+
+    <p class="footer-copy">© 2026 Syed Ibrahim</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
